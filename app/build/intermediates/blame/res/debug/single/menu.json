@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/res/merged/debug/menu/menu_signin.xml",
+        "source": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/res/menu/menu_signin.xml"
+    },
+    {
+        "merged": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
+        "source": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/res/menu/menu_scrolling.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

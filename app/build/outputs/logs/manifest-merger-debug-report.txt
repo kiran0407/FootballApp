@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:7:5-57:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/kiran0407/.android/build-cache/fa906419e61fc198e8b12f36db21f1828afcab08/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9f534d9d20a44814839a7530034d992713f8e31a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/kiran0407/.android/build-cache/868b8268475465a7564bf536a5a299daa24bdcf6/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/kiran0407/.android/build-cache/04d024fb097707821f05edb41e4665ea7e6afa06/output/AndroidManifest.xml:9:5-20
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /home/kiran0407/.android/build-cache/ee38414a6d6404ef4e7c5149dcb21898e9f710af/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/kiran0407/.android/build-cache/d8f70435838cd11691cde4f30970a3dbdc9c15f7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/kiran0407/.android/build-cache/41d7afdcefa3c6bb1d516029626effca03de326b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/kiran0407/.android/build-cache/19da990f370a08a3cfc2602bd2462ba3ffe58a0c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/kiran0407/.android/build-cache/52b55e2c69a5e7d3d52a744bcb8a627c2dee68f1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/kiran0407/.android/build-cache/466427cdc5efa3da324a7bdb01aab35b17f1b5c6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/kiran0407/.android/build-cache/797731902112ee40d1f54dba480589858cb17811/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/kiran0407/.android/build-cache/37eb4acc464f5cfe49c6136ccdac9bba455da189/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/kiran0407/.android/build-cache/acce20048bfd566ad07038c26dc1afbe3e1d7ec6/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:8:9-38
+activity#kiran541.ench.com.footballapp.SigninActivity
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:15:9-19:68
+	android:screenOrientation
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:18:13-49
+	android:label
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:16:13-43
+activity#kiran541.ench.com.footballapp.Signup
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:20:9-29:20
+	android:screenOrientation
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:22:13-58
+	android:parentActivityName
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:23:13-57
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:21:13-35
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:26:13-28:80
+	android:value
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:27:17-63
+activity#kiran541.ench.com.footballapp.TeamSelection
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:30:9-33:59
+	android:label
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:32:13-66
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:31:13-42
+activity#kiran541.ench.com.footballapp.SplashActivity
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:34:9-43:20
+	android:screenOrientation
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:36:13-49
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:35:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:41:27-74
+activity#kiran541.ench.com.footballapp.PersonDetails
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:44:9-47:59
+	android:label
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:46:13-66
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:45:13-42
+activity#kiran541.ench.com.footballapp.ScrollingActivity
+ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:48:9-56:20
+	android:label
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:50:13-61
+	android:parentActivityName
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:51:13-56
+	android:theme
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml:49:13-46
+uses-sdk
+INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/kiran0407/.android/build-cache/fa906419e61fc198e8b12f36db21f1828afcab08/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9f534d9d20a44814839a7530034d992713f8e31a/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9709f47d361b703c5e80ce06bf4d77607e61bc19/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/kiran0407/.android/build-cache/868b8268475465a7564bf536a5a299daa24bdcf6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] /home/kiran0407/.android/build-cache/04d024fb097707821f05edb41e4665ea7e6afa06/output/AndroidManifest.xml:7:5-43
+MERGED from [com.sdsmdg.tastytoast:tastytoast:0.1.1] /home/kiran0407/.android/build-cache/ee38414a6d6404ef4e7c5149dcb21898e9f710af/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/kiran0407/.android/build-cache/d8f70435838cd11691cde4f30970a3dbdc9c15f7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/kiran0407/.android/build-cache/41d7afdcefa3c6bb1d516029626effca03de326b/output/AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] /home/kiran0407/.android/build-cache/3922ab42fab2a4ec7fafa40a14c926effc8ee8bc/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dmytrodanylyk.android-process-button:library:1.0.4] /home/kiran0407/.android/build-cache/02c2dbb2f038e637fd711092e54754f32d81c457/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/kiran0407/.android/build-cache/19da990f370a08a3cfc2602bd2462ba3ffe58a0c/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/kiran0407/.android/build-cache/52b55e2c69a5e7d3d52a744bcb8a627c2dee68f1/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/kiran0407/.android/build-cache/466427cdc5efa3da324a7bdb01aab35b17f1b5c6/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/kiran0407/.android/build-cache/797731902112ee40d1f54dba480589858cb17811/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/kiran0407/.android/build-cache/37eb4acc464f5cfe49c6136ccdac9bba455da189/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/kiran0407/.android/build-cache/acce20048bfd566ad07038c26dc1afbe3e1d7ec6/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9f534d9d20a44814839a7530034d992713f8e31a/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kiran0407/AndroidStudioProjects/FootballApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9f534d9d20a44814839a7530034d992713f8e31a/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9709f47d361b703c5e80ce06bf4d77607e61bc19/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/kiran0407/.android/build-cache/868b8268475465a7564bf536a5a299daa24bdcf6/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/kiran0407/.android/build-cache/41461dbcc1c114acefa2a5911fd03211b87a1280/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/kiran0407/.android/build-cache/d8f70435838cd11691cde4f30970a3dbdc9c15f7/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/kiran0407/.android/build-cache/41d7afdcefa3c6bb1d516029626effca03de326b/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/kiran0407/.android/build-cache/19da990f370a08a3cfc2602bd2462ba3ffe58a0c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/kiran0407/.android/build-cache/52b55e2c69a5e7d3d52a744bcb8a627c2dee68f1/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/kiran0407/.android/build-cache/466427cdc5efa3da324a7bdb01aab35b17f1b5c6/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/kiran0407/.android/build-cache/797731902112ee40d1f54dba480589858cb17811/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/kiran0407/.android/build-cache/37eb4acc464f5cfe49c6136ccdac9bba455da189/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/kiran0407/.android/build-cache/acce20048bfd566ad07038c26dc1afbe3e1d7ec6/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9f534d9d20a44814839a7530034d992713f8e31a/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/kiran0407/.android/build-cache/9f534d9d20a44814839a7530034d992713f8e31a/output/AndroidManifest.xml:26:9-47

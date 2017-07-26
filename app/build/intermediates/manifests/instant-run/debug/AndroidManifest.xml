@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kiran541.ench.com.footballapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:name="kiran541.ench.com.footballapp.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="kiran541.ench.com.footballapp.SigninActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kiran541.ench.com.footballapp.Signup"
+            android:label="@string/title_activity_signup"
+            android:parentActivityName="kiran541.ench.com.footballapp.SigninActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kiran541.ench.com.footballapp.SigninActivity" />
+        </activity>
+        <activity
+            android:name="kiran541.ench.com.footballapp.TeamSelection"
+            android:label="@string/title_activity_team_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kiran541.ench.com.footballapp.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kiran541.ench.com.footballapp.PersonDetails"
+            android:label="@string/title_activity_person_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="kiran541.ench.com.footballapp.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName="kiran541.ench.com.footballapp.TeamSelection"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kiran541.ench.com.footballapp.TeamSelection" />
+        </activity>
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="kiran541.ench.com.footballapp.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

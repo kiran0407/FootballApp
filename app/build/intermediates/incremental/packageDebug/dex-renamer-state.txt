@@ -1,0 +1,7 @@
+#Sat Jun 24 11:16:26 IST 2017
+base.0=/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9f0fc11d614f5f7b0a760413dc3db4d6341d142
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1337f684ca2db7ce015ffa1cde3365a83ddfa9ca/classes.dex
+base.1=/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1337f684ca2db7ce015ffa1cde3365a83ddfa9ca
+file.0=/home/kiran0407/AndroidStudioProjects/FootballApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9f0fc11d614f5f7b0a760413dc3db4d6341d142/classes.dex

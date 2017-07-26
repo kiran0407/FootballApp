@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kiran541.ench.com.footballapp.Signup"
+    tools:showIn="@layout/activity_signup">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingTop="45dp"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            app:srcCompat="@drawable/footballlogo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="35dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:textSize="15sp"
+                android:hint="USER NAME"
+                android:layout_marginLeft="0dp"
+                android:paddingRight="60dp"
+                android:layout_marginTop="100dp"
+                android:textColor="#4A148C"
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:background="@drawable/selector_bg_edit_2"
+                android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                android:paddingBottom="2dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:textSize="15sp"
+                android:hint="EMAIL"
+                android:layout_marginLeft="0dp"
+
+                android:layout_marginTop="100dp"
+                android:textColor="#4A148C"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:background="@drawable/selector_bg_edit_2"
+                android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                android:paddingBottom="2dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:textSize="15sp"
+                android:hint="PASSWORD"
+                android:layout_marginLeft="0dp"
+
+                android:layout_marginTop="100dp"
+                android:textColor="#4A148C"
+                android:id="@+id/pswrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/selector_bg_edit_2"
+                android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                android:paddingBottom="2dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:theme="@style/TextLabel"
+
+            android:layout_height="wrap_content">
+            <EditText
+                android:textSize="15sp"
+                android:hint="CONFIRM PASSWORD"
+                android:layout_marginLeft="0dp"
+
+                android:layout_marginTop="100dp"
+                android:textColor="#4A148C"
+                android:id="@+id/cnfrmpswrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/selector_bg_edit_2"
+                android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                android:paddingBottom="2dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:id="@+id/linearLayout2"
+        android:orientation="vertical">
+
+        <com.dd.processbutton.iml.SubmitProcessButton
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:minWidth="100dp"
+            android:text="Sign up"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            custom:pb_textComplete="Done"
+            custom:pb_textProgress="Updating....." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingTop="20dp"
+
+            android:layout_weight="0.7"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have account?"
+            />
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signin"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1.5"
+            android:layout_gravity="left"
+            android:id="@+id/signinlink"
+            android:textColor="#4A148C"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
